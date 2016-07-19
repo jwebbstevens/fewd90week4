@@ -6,14 +6,23 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
+  <h1> Temperature Converter</h1>
+   <p> Enter a number into one of the input fields below to convert temperatures between measurement systems of Fahrenheit and Celsius.</p>
     <div class="row">
-      <input type="text" id="inputFtoC"> &deg;F = <span id="solutionFtoC">__&deg;C</span><br>
-      <button id="convertFtoC">Convert</button>
+      <input id="f" onkeyup="convert('F')" size="15" placeholder="enter a value"> &deg;F<br>
     </div>
     <div class="row">
-      <input type="text" id="inputCtoF"> &deg;C = <span id="solutionCtoF">__&deg;F</span><br>
-      <button id="convertCtoF">Convert</button>
+      <input id="c" onkeyup="convert('C')" size="15" placeholder="get a value"> &deg;C<br>
     </div>
+   <footer>
+      <div id="facts">
+        <div id="inline" class="various0" style="display:none;">... Fahrenheit is a temperature scale that bases the boiling point of water at 212 and the freezing point at 32.</div>
+        <div id="inline" class="various1" style="display:none;">... The Fahrenheit scale was developed by Daniel Gabriel Fahrenheit, a German-born scientist who lived and worked primarily in the Netherlands. </div>
+        <div id="inline" class="various2" style="display:none;">... In 1714, Fahrenheit developed the first modern thermometer </div>
+        <div id="inline" class="various3" style="display:none;">... Today, the scale is used primarily in the United States and some Caribbean countries.</div>
+        <div id="inline" class="various4" style="display:none;">... The rest of the world uses the Celsius scale. Go Figure  ¯\_(ツ)_/¯</div>
+      </div>
+    </footer>
     <script type="text/javascript" src="js/project.js"></script>
   </body>
 </html>
