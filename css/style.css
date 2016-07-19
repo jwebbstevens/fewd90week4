@@ -1,3 +1,26 @@
-.row {
-  padding: 20px;  
+body{
+	color: white;
+	background-color: black;
+	font-family: Arial, sans-serif;
+	font-size: 40px;
+	padding: 35px;
+}
+
+.row{
+	border: solid 5px white;
+	margin: 40px auto;
+	padding: 5px;
+	position: relative;
+	width: 380px;	
+} 
+
+h1{
+	font-size: 35px;
+	text-align: center;
+}
+
+.facts{
+	font-size: 35px;
+	font-style: italic;
+	text-align: center;
 }
