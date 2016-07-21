@@ -6,21 +6,26 @@ body{
 	padding: 35px;
 }
 
+h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
 .row{
 	border: solid 5px white;
 	margin: 40px auto;
 	padding: 5px;
 	position: relative;
-	width: 380px;	
-} 
-
-h1{
-	font-size: 35px;
-	text-align: center;
+	width: 380px;
 }
 
-.facts{
+
+.facts {
 	font-size: 35px;
 	font-style: italic;
 	text-align: center;
+}
+
+.fact {
+    display: none;
 }
